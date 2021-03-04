@@ -16,25 +16,25 @@ export default function Home() {
           <nav>
             <div>
               <span>GET</span>
-              <Link href="/">
+              <Link href="/requisicoes/page_get">
                 <input type="button" value="Veja mais" onClick={() => console.log("")}/>
               </Link>
             </div>
             <div>
               <span>POST</span>
-              <Link href="/">
+              <Link href="/requisicoes/page_post">
                 <input type="button" value="Veja mais" onClick={() => console.log("")}/>
               </Link>
             </div>
             <div>
               <span>PUT</span>
-              <Link href="/">
+              <Link href="/requisicoes/page_put">
                 <input type="button" value="Veja mais" onClick={() => console.log("")}/>
               </Link>
             </div>
             <div>
               <span>DELETE</span>
-              <Link href="/">
+              <Link href="/requisicoes/page_delete">
                 <input type="button" value="Veja mais" onClick={() => console.log("")}/>
               </Link>
             </div>
